@@ -6,171 +6,237 @@ import walmart_logo from "./walmart_logo.svg";
 import accenture_logo from "./accenture_logo.png";
 import profile_img from "./profile_img.png";
 import app_main_img from "./app_main_img.png";
-import cross_icon from './cross_icon.svg';
-import location_icon from './location_icon.svg';
-import money_icon from './money_icon.svg';
-import suitcase_icon from './suitcase_icon.svg';
-import person_icon from './person_icon.svg';
-import upload_area from './upload_area.svg';
-import resume_selected from './resume_selected.svg';
-import resume_not_selected from './resume_not_selected.svg';
-import play_store from './play_store.svg';
-import app_store from './app_store.svg';
-import back_arrow_icon from './back_arrow_icon.svg';
-import left_arrow_icon from './left_arrow_icon.svg';
-import right_arrow_icon from './right_arrow_icon.svg';
-import facebook_icon from './facebook_icon.svg'
-import instagram_icon from './instagram_icon.svg'
-import twitter_icon from './twitter_icon.svg'
-import home_icon from './home_icon.svg'
-import add_icon from './add_icon.svg'
-import profile_upload_icon from './profile_upload_icon.svg'
-import person_tick_icon from './person_tick_icon.svg'
-import resume_download_icon from './resume_download_icon.svg'
-import delete_icon from './delete_icon.svg'
-import email_icon from './email_icon.svg'
-import lock_icon from './lock_icon.svg'
-import samsung_logo from './samsung_logo.png'
-import adobe_logo from './adobe_logo.png'
-import amazon_logo from './amazon_logo.png'
-import hormuud from './hormuud.png';
-import somtel from './Somtel_logo.JPG';
-import primierbank from './premier.JPG';
-import university from './muniver.png';
+import cross_icon from "./cross_icon.svg";
+import location_icon from "./location_icon.svg";
+import money_icon from "./money_icon.svg";
+import suitcase_icon from "./suitcase_icon.svg";
+import person_icon from "./person_icon.svg";
+import upload_area from "./upload_area.svg";
+import resume_selected from "./resume_selected.svg";
+import resume_not_selected from "./resume_not_selected.svg";
+import play_store from "./play_store.svg";
+import app_store from "./app_store.svg";
+import back_arrow_icon from "./back_arrow_icon.svg";
+import left_arrow_icon from "./left_arrow_icon.svg";
+import right_arrow_icon from "./right_arrow_icon.svg";
+import facebook_icon from "./facebook_icon.svg";
+import instagram_icon from "./instagram_icon.svg";
+import twitter_icon from "./twitter_icon.svg";
+import home_icon from "./home_icon.svg";
+import add_icon from "./add_icon.svg";
+import profile_upload_icon from "./profile_upload_icon.svg";
+import person_tick_icon from "./person_tick_icon.svg";
+import resume_download_icon from "./resume_download_icon.svg";
+import delete_icon from "./delete_icon.svg";
+import email_icon from "./email_icon.svg";
+import lock_icon from "./lock_icon.svg";
+import samsung_logo from "./samsung_logo.png";
+import adobe_logo from "./adobe_logo.png";
+import amazon_logo from "./amazon_logo.png";
+import hormuud from "./hormuud.png";
+import somtel from "./Somtel_logo.jpg";
+import primierbank from "./premier.JPG";
+import university from "./muniver.png";
 
 export const assets = {
-    logo,
-    search_icon,
-    cross_icon,
-    upload_area,
-    company_icon,
-    resume_not_selected,
-    resume_selected,
-    microsoft_logo,
-    walmart_logo,
-    accenture_logo,
-    app_main_img,
-    play_store,
-    app_store,
-    back_arrow_icon,
-    left_arrow_icon,
-    right_arrow_icon,
-    location_icon,
-    money_icon,
-    suitcase_icon,
-    person_icon,
-    facebook_icon,
-    instagram_icon,
-    twitter_icon,
-    home_icon,
-    add_icon,
-    person_tick_icon,
-    resume_download_icon,
-    profile_img,
-    delete_icon,
-    profile_upload_icon,
-    email_icon,
-    lock_icon,
-    samsung_logo,
-    adobe_logo,
-    amazon_logo
-}
+  logo,
+  search_icon,
+  cross_icon,
+  upload_area,
+  company_icon,
+  resume_not_selected,
+  resume_selected,
+  microsoft_logo,
+  walmart_logo,
+  accenture_logo,
+  app_main_img,
+  play_store,
+  app_store,
+  back_arrow_icon,
+  left_arrow_icon,
+  right_arrow_icon,
+  location_icon,
+  money_icon,
+  suitcase_icon,
+  person_icon,
+  facebook_icon,
+  instagram_icon,
+  twitter_icon,
+  home_icon,
+  add_icon,
+  person_tick_icon,
+  resume_download_icon,
+  profile_img,
+  delete_icon,
+  profile_upload_icon,
+  email_icon,
+  lock_icon,
+  samsung_logo,
+  adobe_logo,
+  amazon_logo,
+};
 
 export const JobCategories = [
-    "Programming",
-    "Data Science",
-    "Designing",
-    "Networking",
-    "Management",
-    "Marketing",
-    "Cybersecurity",
-]
+  "Programming",
+  "Data Science",
+  "Designing",
+  "Networking",
+  "Management",
+  "Marketing",
+  "Cybersecurity",
+];
 
 export const JobLocations = [
-    "Bosaso",
-    "Beidoa",
-    "mogadishu",
-    "Dhusomareb",
-    "kismayo",
-    "guriel",
-    "jowhar"
-]
+  "Bosaso",
+  "Beidoa",
+  "mogadishu",
+  "Dhusomareb",
+  "kismayo",
+  "guriel",
+  "jowhar",
+];
 
 // Sample data for Manage Jobs Page
 export const manageJobsData = [
-    { _id: 1, title: "Full Stack Developer", date: 1729102298497, location: "Bangalore", applicants: 20 },
-    { _id: 2, title: "Data Scientist", date: 1729102298497, location: "San Francisco", applicants: 15 },
-    { _id: 3, title: "Marketing Manager", date: 1729102298497, location: "London", applicants: 2 },
-    { _id: 4, title: "UI/UX Designer", date: 1729102298497, location: "Dubai", applicants: 25 }
+  {
+    _id: 1,
+    title: "Full Stack Developer",
+    date: 1729102298497,
+    location: "Bangalore",
+    applicants: 20,
+  },
+  {
+    _id: 2,
+    title: "Data Scientist",
+    date: 1729102298497,
+    location: "San Francisco",
+    applicants: 15,
+  },
+  {
+    _id: 3,
+    title: "Marketing Manager",
+    date: 1729102298497,
+    location: "London",
+    applicants: 2,
+  },
+  {
+    _id: 4,
+    title: "UI/UX Designer",
+    date: 1729102298497,
+    location: "Dubai",
+    applicants: 25,
+  },
 ];
 
 // Sample data for Profile Page
 export const jobsApplied = [
-    {
-        company: 'hormuud',
-        title: 'Full Stack Developer',
-        location: 'mogadishu',
-        date: '22 Aug, 2024',
-        status: 'Pending',
-        logo: hormuud,
-    },
-    {
-        company: 'Premier bank',
-        title: 'Data Scientist',
-        location: 'San Francisco',
-        date: '22 Aug, 2024',
-        status: 'Rejected',
-        logo: company_icon,
-    },
-    {
-        company: 'Google',
-        title: 'Marketing Manager',
-        location: 'London',
-        date: '25 Sep, 2024',
-        status: 'Accepted',
-        logo: company_icon,
-    },
-    {
-        company: 'Qualcomm',
-        title: 'UI/UX Designer',
-        location: 'Dubai',
-        date: '15 Oct, 2024',
-        status: 'Pending',
-        logo: company_icon,
-    },
-    {
-        company: 'Microsoft',
-        title: 'Full Stack Developer',
-        location: 'Hyderabad',
-        date: '25 Sep, 2024',
-        status: 'Accepted',
-        logo: company_icon,
-    },
+  {
+    company: "hormuud",
+    title: "Full Stack Developer",
+    location: "mogadishu",
+    date: "22 Aug, 2024",
+    status: "Pending",
+    logo: hormuud,
+  },
+  {
+    company: "Premier bank",
+    title: "Data Scientist",
+    location: "San Francisco",
+    date: "22 Aug, 2024",
+    status: "Rejected",
+    logo: company_icon,
+  },
+  {
+    company: "Google",
+    title: "Marketing Manager",
+    location: "London",
+    date: "25 Sep, 2024",
+    status: "Accepted",
+    logo: company_icon,
+  },
+  {
+    company: "Qualcomm",
+    title: "UI/UX Designer",
+    location: "Dubai",
+    date: "15 Oct, 2024",
+    status: "Pending",
+    logo: company_icon,
+  },
+  {
+    company: "Microsoft",
+    title: "Full Stack Developer",
+    location: "Hyderabad",
+    date: "25 Sep, 2024",
+    status: "Accepted",
+    logo: company_icon,
+  },
 ];
 
 export const viewApplicationsPageData = [
-    { _id: 1, name: "Richard Sanford", jobTitle: "Full Stack Developer", location: "Bangalore", imgSrc: profile_img },
-    { _id: 2, name: "Enrique Murphy", jobTitle: "Data Scientist", location: "San Francisco", imgSrc: profile_img },
-    { _id: 3, name: "Alison Powell", jobTitle: "Marketing Manager", location: "London", imgSrc: profile_img },
-    { _id: 4, name: "Richard Sanford", jobTitle: "UI/UX Designer", location: "Dubai", imgSrc: profile_img },
-    { _id: 5, name: "Enrique Murphy", jobTitle: "Full Stack Developer", location: "Hyderabad", imgSrc: profile_img },
-    { _id: 6, name: "Alison Powell", jobTitle: "Data Scientist", location: "New Delhi", imgSrc: profile_img },
-    { _id: 7, name: "Richard Sanford", jobTitle: "Marketing Manager", location: "Chennai", imgSrc: profile_img },
+  {
+    _id: 1,
+    name: "Richard Sanford",
+    jobTitle: "Full Stack Developer",
+    location: "Bangalore",
+    imgSrc: profile_img,
+  },
+  {
+    _id: 2,
+    name: "Enrique Murphy",
+    jobTitle: "Data Scientist",
+    location: "San Francisco",
+    imgSrc: profile_img,
+  },
+  {
+    _id: 3,
+    name: "Alison Powell",
+    jobTitle: "Marketing Manager",
+    location: "London",
+    imgSrc: profile_img,
+  },
+  {
+    _id: 4,
+    name: "Richard Sanford",
+    jobTitle: "UI/UX Designer",
+    location: "Dubai",
+    imgSrc: profile_img,
+  },
+  {
+    _id: 5,
+    name: "Enrique Murphy",
+    jobTitle: "Full Stack Developer",
+    location: "Hyderabad",
+    imgSrc: profile_img,
+  },
+  {
+    _id: 6,
+    name: "Alison Powell",
+    jobTitle: "Data Scientist",
+    location: "New Delhi",
+    imgSrc: profile_img,
+  },
+  {
+    _id: 7,
+    name: "Richard Sanford",
+    jobTitle: "Marketing Manager",
+    location: "Chennai",
+    imgSrc: profile_img,
+  },
 ];
 
 export const jobsData = [
-    {
-        _id: '1',
-        title: "Full Stack Developer",
-        location: "mogadishu",
-        level: "Senior Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": hormuud,
-        },
-        description: `
+  {
+    _id: "1",
+    title: "Full Stack Developer",
+    location: "mogadishu",
+    level: "Senior Level",
+    companyId: {
+      _id: "670e4d25ca9fda8f1bf359b9",
+      name: "Slack",
+      email: "slack@demo.com",
+      image: hormuud,
+    },
+    description: `
         <p>Waxaan raadineynaa Full Stack Developer khibrad sare leh oo ku biira kooxda cusub iyo hal-abuurka leh ee shirkadeena. Kandidadka ugu haboon wuxuu yeelan doonaa xiisaha horumarinta codsiyada webka ee balaadhan iyo shaqada guud ee tiknoolajiyada dhamaystiran, oo ay ku jiraan horumarka hore (front-end) iyo dambe (back-end). Waxaad heli doontaa fursad aad kula shaqeyso tiknoolajiyada ugu dambeeyay iyo inaad ka qayb qaadato mashaariic xiiso leh oo saameyn ku yeelan doona isticmaalayaasha si toos ah.</p>
 
 <h2><strong>Mas'uuliyadaha Muhiimka ah</strong></h2>
@@ -191,22 +257,22 @@ export const jobsData = [
     <li>Awoodda inaad ka shaqeyso deegaan Agile ah.</li>
 </ol>
 `,
-        salary: 82000,
-        date: 1729681667114,
-        category: "Programming",
+    salary: 82000,
+    date: 1729681667114,
+    category: "Programming",
+  },
+  {
+    _id: "2",
+    title: "Mobile App Developer",
+    location: "Dhuusomareeb",
+    level: "Intermediate Level",
+    companyId: {
+      _id: "670e4d25ca9fda8f1bf359b9",
+      name: "Slack",
+      email: "slack@demo.com",
+      image: primierbank,
     },
-    {
-        _id: '2',
-        title: "Mobile App Developer",
-        location: "Dhuusomareeb",
-        level: "Intermediate Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": primierbank,
-        },
-        description: `
+    description: `
     <p>Ku soo biir kooxda falanqaynta si aad uga caawiso go'aanada ganacsiga adoo adeegsanaya xogta. Sida Saynisyahan Xogta, waxaad adeegsan doontaa xirfadahaaga falanqaynta si aad u ogaato qaababka iyo aragtiyada saameyn ku yeelan doona jihada istiraatijiyadeed ee shirkadda. Waxaad si dhow ula shaqeyn doontaa daneeyayaasha si aad u fahanto baahiyahooda iyo inaad soo bandhigto falanqayno saameyn ku yeelan doona yoolalka kobaca. Doorkaaga waa muhiim si loo beddelo xogta aragtiyo wax ku ool ah.</p>
 
 <h2><strong>Mas'uuliyadaha Muhiimka ah</strong></h2>
@@ -227,22 +293,22 @@ export const jobsData = [
     <li>Xirfadaha xallinta dhibaatooyinka iyo fikirka muhiimka ah ee heer sare ah.</li>
 </ol>
 `,
-        salary: 72000,
-        date: 1729681667114,
-        category: "Data Science",
+    salary: 72000,
+    date: 1729681667114,
+    category: "Data Science",
+  },
+  {
+    _id: "3",
+    title: "Lecturer",
+    location: "mogadishu",
+    level: "Beginner Level",
+    companyId: {
+      _id: "670e4d25ca9fda8f1bf359b9",
+      name: "Slack",
+      email: "slack@demo.com",
+      image: university,
     },
-    {
-        _id: '3',
-        title: "Lecturer",
-        location: "mogadishu",
-        level: "Beginner Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": university,
-        },
-        description: `
+    description: `
         <p>Create intuitive digital experiences as a UI/UX Designer. In this role, you will collaborate with product teams to design engaging user interfaces and ensure a seamless user journey. Your creativity and attention to detail will be crucial in developing designs that not only look good but also enhance functionality and user satisfaction.</p>
         <h2><strong>Key Responsibilities</strong></h2>
         <ol>
@@ -260,22 +326,22 @@ export const jobsData = [
             <li>Excellent communication and teamwork skills.</li>
             <li>Creative problem-solving abilities.</li>
         </ol>`,
-        salary: 61000,
-        date: 1729681667114,
-        category: "Designing",
+    salary: 61000,
+    date: 1729681667114,
+    category: "Designing",
+  },
+  {
+    _id: "4",
+    title: "DevOps Engineer",
+    location: "Washington",
+    level: "Senior Level",
+    companyId: {
+      _id: "670e4d25ca9fda8f1bf359b9",
+      name: "Slack",
+      email: "slack@demo.com",
+      image: company_icon,
     },
-    {
-        _id: '4',
-        title: "DevOps Engineer",
-        location: "Washington",
-        level: "Senior Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": company_icon,
-        },
-        description: `
+    description: `
         <p>Enhance our deployment pipeline as a DevOps Engineer. This role will involve automating deployment processes, managing cloud infrastructure, and implementing best practices for security and performance. You will play a vital role in bridging the gap between development and operations, ensuring efficient workflows and high-quality releases.</p>
         <h2><strong>Key Responsibilities</strong></h2>
         <ol>
@@ -293,22 +359,22 @@ export const jobsData = [
             <li>Familiarity with containerization technologies (e.g., Docker, Kubernetes).</li>
             <li>Excellent troubleshooting and analytical skills.</li>
         </ol>`,
-        salary: 53000,
-        date: 1729681667114,
-        category: "Programming",
+    salary: 53000,
+    date: 1729681667114,
+    category: "Programming",
+  },
+  {
+    _id: "5",
+    title: "Software Engineer",
+    location: "Hyderabad",
+    level: "Intermediate Level",
+    companyId: {
+      _id: "670e4d25ca9fda8f1bf359b9",
+      name: "Slack",
+      email: "slack@demo.com",
+      image: company_icon,
     },
-    {
-        _id: '5',
-        title: "Software Engineer",
-        location: "Hyderabad",
-        level: "Intermediate Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": company_icon,
-        },
-        description: `
+    description: `
         <p>Join our team as a Software Engineer to build high-quality applications that deliver exceptional user experiences. You will be responsible for designing, developing, and maintaining software solutions that meet business needs. Collaborating closely with other engineers, you will contribute to code reviews and ensure best practices are followed throughout the development process.</p>
         <h2><strong>Key Responsibilities</strong></h2>
         <ol>
@@ -326,22 +392,22 @@ export const jobsData = [
             <li>Familiarity with version control systems (e.g., Git).</li>
             <li>Excellent communication and teamwork abilities.</li>
         </ol>`,
-        salary: 91000,
-        date: 1729681667114,
-        category: "Programming",
+    salary: 91000,
+    date: 1729681667114,
+    category: "Programming",
+  },
+  {
+    _id: "6",
+    title: "Network Engineer",
+    location: "Bangalore",
+    level: "Senior Level",
+    companyId: {
+      _id: "670e4d25ca9fda8f1bf359b9",
+      name: "Slack",
+      email: "slack@demo.com",
+      image: company_icon,
     },
-    {
-        _id: '6',
-        title: "Network Engineer",
-        location: "Bangalore",
-        level: "Senior Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": company_icon,
-        },
-        description: `
+    description: `
         <p>We are looking for a Network Engineer to manage our infrastructure and ensure robust connectivity across all systems. Your expertise will help us design and implement network solutions that are secure and efficient. You will be pivotal in monitoring network performance and ensuring compliance with security standards.</p>
         <h2><strong>Key Responsibilities</strong></h2>
         <ol>
@@ -359,22 +425,22 @@ export const jobsData = [
             <li>Excellent communication and teamwork abilities.</li>
             <li>Relevant certifications (e.g., CCNA, CCNP) are a plus.</li>
         </ol>`,
-        salary: 77000,
-        date: 1729681667114,
-        category: "Networking",
+    salary: 77000,
+    date: 1729681667114,
+    category: "Networking",
+  },
+  {
+    _id: "7",
+    title: "Project Manager",
+    location: "Bangalore",
+    level: "Senior Level",
+    companyId: {
+      _id: "670e4d25ca9fda8f1bf359b9",
+      name: "Slack",
+      email: "slack@demo.com",
+      image: company_icon,
     },
-    {
-        _id: '7',
-        title: "Project Manager",
-        location: "Bangalore",
-        level: "Senior Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": company_icon,
-        },
-        description: `
+    description: `
         <p>Lead projects as a Project Manager ensuring timely delivery and alignment with organizational goals. You will oversee project planning, execution, and monitoring, collaborating with various teams to ensure that all aspects of each project are delivered successfully. Your strong leadership skills will be key to motivating team members and fostering a positive work environment.</p>
         <h2><strong>Key Responsibilities</strong></h2>
         <ol>
@@ -392,22 +458,22 @@ export const jobsData = [
             <li>Excellent communication and interpersonal abilities.</li>
             <li>Certification in project management (e.g., PMP, Scrum Master) is preferred.</li>
         </ol>`,
-        salary: 60000,
-        date: 1729681667114,
-        category: "Management",
+    salary: 60000,
+    date: 1729681667114,
+    category: "Management",
+  },
+  {
+    _id: "8",
+    title: "Mobile App Developer",
+    location: "Hyderabad",
+    level: "Intermediate Level",
+    companyId: {
+      _id: "670e4d25ca9fda8f1bf359b9",
+      name: "Slack",
+      email: "slack@demo.com",
+      image: company_icon,
     },
-    {
-        _id: '8',
-        title: "Mobile App Developer",
-        location: "Hyderabad",
-        level: "Intermediate Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": company_icon,
-        },
-        description: `
+    description: `
         <p>Join our team as a Mobile App Developer to create engaging mobile applications for iOS and Android platforms. You will be responsible for the full app development lifecycle, from concept and design to deployment and maintenance. Your creativity and technical skills will help us deliver high-quality applications that enhance user experience.</p>
         <h2><strong>Key Responsibilities</strong></h2>
         <ol>
@@ -425,22 +491,22 @@ export const jobsData = [
             <li>Excellent problem-solving skills and attention to detail.</li>
             <li>Familiarity with version control systems (e.g., Git).</li>
         </ol>`,
-        salary: 112000,
-        date: 1729681667114,
-        category: "Programming",
+    salary: 112000,
+    date: 1729681667114,
+    category: "Programming",
+  },
+  {
+    _id: "9",
+    title: "Cloud Architect",
+    location: "Hyderabad",
+    level: "Senior Level",
+    companyId: {
+      _id: "670e4d25ca9fda8f1bf359b9",
+      name: "Slack",
+      email: "slack@demo.com",
+      image: company_icon,
     },
-    {
-        _id: '9',
-        title: "Cloud Architect",
-        location: "Hyderabad",
-        level: "Senior Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": company_icon,
-        },
-        description: `
+    description: `
         <p>Design cloud solutions as a Cloud Architect, helping to transform our infrastructure and services. You will work closely with various teams to understand their requirements and translate them into secure, scalable, and efficient cloud-based solutions. Your expertise will guide our cloud strategy and ensure that we leverage cloud technologies to their fullest potential.</p>
         <h2><strong>Key Responsibilities</strong></h2>
         <ol>
@@ -458,22 +524,22 @@ export const jobsData = [
             <li>Excellent analytical and problem-solving skills.</li>
             <li>Relevant certifications (e.g., AWS Certified Solutions Architect) are preferred.</li>
         </ol>`,
-        salary: 96000,
-        date: 1729681667114,
-        category: "Programming",
+    salary: 96000,
+    date: 1729681667114,
+    category: "Programming",
+  },
+  {
+    _id: "10",
+    title: "Technical Writer",
+    location: "Mumbai",
+    level: "Intermediate Level",
+    companyId: {
+      _id: "670e4d25ca9fda8f1bf359b9",
+      name: "Slack",
+      email: "slack@demo.com",
+      image: company_icon,
     },
-    {
-        _id: '10',
-        title: "Technical Writer",
-        location: "Mumbai",
-        level: "Intermediate Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": company_icon,
-        },
-        description: `
+    description: `
         <p>Join us as a Technical Writer to create user-friendly documentation that supports our products and services. You will work closely with engineers and product managers to gather information and produce clear, concise, and accurate documentation. Your role is essential in ensuring that our users can easily understand and utilize our offerings.</p>
         <h2><strong>Key Responsibilities</strong></h2>
         <ol>
@@ -491,22 +557,22 @@ export const jobsData = [
             <li>Strong communication and collaboration abilities.</li>
             <li>Attention to detail and a commitment to quality.</li>
         </ol>`,
-        salary: 72000,
-        date: 1729681667114,
-        category: "Marketing",
+    salary: 72000,
+    date: 1729681667114,
+    category: "Marketing",
+  },
+  {
+    _id: "11",
+    title: "Cybersecurity Analyst",
+    location: "Mumbai",
+    level: "Intermediate Level",
+    companyId: {
+      _id: "670e4d25ca9fda8f1bf359b9",
+      name: "Slack",
+      email: "slack@demo.com",
+      image: company_icon,
     },
-    {
-        _id: '11',
-        title: "Cybersecurity Analyst",
-        location: "Mumbai",
-        level: "Intermediate Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": company_icon,
-        },
-        description: `
+    description: `
         <p>Protect our systems as a Cybersecurity Analyst. In this role, you will monitor security systems, analyze potential threats, and implement protective measures to safeguard our information and assets. Your expertise will help us stay ahead of evolving security challenges and maintain a secure environment for our users and stakeholders.</p>
         <h2><strong>Key Responsibilities</strong></h2>
         <ol>
@@ -524,22 +590,22 @@ export const jobsData = [
             <li>Excellent problem-solving and analytical skills.</li>
             <li>Relevant certifications (e.g., CISSP, CEH) are a plus.</li>
         </ol>`,
-        salary: 62000,
-        date: 1729681667114,
-        category: "Cybersecurity",
+    salary: 62000,
+    date: 1729681667114,
+    category: "Cybersecurity",
+  },
+  {
+    _id: "12",
+    title: "Business Analyst",
+    location: "Mumbai",
+    level: "Intermediate Level",
+    companyId: {
+      _id: "670e4d25ca9fda8f1bf359b9",
+      name: "Slack",
+      email: "slack@demo.com",
+      image: company_icon,
     },
-    {
-        _id: '12',
-        title: "Business Analyst",
-        location: "Mumbai",
-        level: "Intermediate Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": company_icon,
-        },
-        description: `
+    description: `
         <p>Join us as a Business Analyst to optimize our processes and improve overall efficiency. You will work closely with stakeholders to identify business needs and gather requirements for new projects. Your analytical skills will help drive decision-making and ensure that solutions align with business objectives.</p>
         <h2><strong>Key Responsibilities</strong></h2>
         <ol>
@@ -557,22 +623,22 @@ export const jobsData = [
             <li>Experience with data analysis and reporting.</li>
             <li>Familiarity with Agile methodologies is a plus.</li>
         </ol>`,
-        salary: 68000,
-        date: 1729681667114,
-        category: "Management",
+    salary: 68000,
+    date: 1729681667114,
+    category: "Management",
+  },
+  {
+    _id: "13",
+    title: "Marketing Specialist",
+    location: "Chennai",
+    level: "Beginner Level",
+    companyId: {
+      _id: "670e4d25ca9fda8f1bf359b9",
+      name: "Slack",
+      email: "slack@demo.com",
+      image: company_icon,
     },
-    {
-        _id: '13',
-        title: "Marketing Specialist",
-        location: "Chennai",
-        level: "Beginner Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": company_icon,
-        },
-        description: `
+    description: `
         <p>Support our marketing efforts as a Marketing Specialist. In this role, you will assist with campaign execution, content creation, and social media management. Your creativity and enthusiasm will help promote our brand and engage our audience across various channels.</p>
         <h2><strong>Key Responsibilities</strong></h2>
         <ol>
@@ -590,22 +656,22 @@ export const jobsData = [
             <li>Creative thinking and problem-solving abilities.</li>
             <li>Willingness to learn and adapt in a fast-paced environment.</li>
         </ol>`,
-        salary: 77000,
-        date: 1729681667114,
-        category: "Marketing",
+    salary: 77000,
+    date: 1729681667114,
+    category: "Marketing",
+  },
+  {
+    _id: "14",
+    title: "Data Scientist",
+    location: "California",
+    level: "Senior Level",
+    companyId: {
+      _id: "670e4d25ca9fda8f1bf359b9",
+      name: "Slack",
+      email: "slack@demo.com",
+      image: company_icon,
     },
-    {
-        _id: '14',
-        title: "Data Scientist",
-        location: "California",
-        level: "Senior Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": company_icon,
-        },
-        description: `
+    description: `
         <p>Join our innovative team as a Data Scientist, where you will analyze complex data sets to drive strategic decision-making. You will leverage your statistical and programming skills to uncover insights and develop predictive models, contributing to the overall success of our organization.</p>
         <h2><strong>Key Responsibilities</strong></h2>
         <ol>
@@ -623,22 +689,22 @@ export const jobsData = [
             <li>Excellent problem-solving skills and attention to detail.</li>
             <li>Ability to communicate complex concepts to non-technical audiences.</li>
         </ol>`,
-        salary: 65000,
-        date: 1729681667114,
-        category: "Data Science",
+    salary: 65000,
+    date: 1729681667114,
+    category: "Data Science",
+  },
+  {
+    _id: "15",
+    title: "UX/UI Designer",
+    location: "Hyderabad",
+    level: "Intermediate Level",
+    companyId: {
+      _id: "670e4d25ca9fda8f1bf359b9",
+      name: "Slack",
+      email: "slack@demo.com",
+      image: company_icon,
     },
-    {
-        _id: '15',
-        title: "UX/UI Designer",
-        location: "Hyderabad",
-        level: "Intermediate Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": company_icon,
-        },
-        description: `
+    description: `
         <p>We are seeking a talented UX/UI Designer to enhance our user experience across digital platforms. You will collaborate with product managers and developers to create intuitive and engaging interfaces that meet user needs and improve overall satisfaction.</p>
         <h2><strong>Key Responsibilities</strong></h2>
         <ol>
@@ -656,22 +722,22 @@ export const jobsData = [
             <li>Excellent communication skills and ability to work collaboratively.</li>
             <li>A portfolio showcasing relevant design projects is required.</li>
         </ol>`,
-        salary: 64000,
-        date: 1729681667114,
-        category: "Design",
+    salary: 64000,
+    date: 1729681667114,
+    category: "Design",
+  },
+  {
+    _id: "16",
+    title: "DevOps Engineer",
+    location: "Bangalore",
+    level: "Senior Level",
+    companyId: {
+      _id: "670e4d25ca9fda8f1bf359b9",
+      name: "Slack",
+      email: "slack@demo.com",
+      image: company_icon,
     },
-    {
-        _id: '16',
-        title: "DevOps Engineer",
-        location: "Bangalore",
-        level: "Senior Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": company_icon,
-        },
-        description: `
+    description: `
         <p>As a DevOps Engineer, you will play a crucial role in enhancing our software development and deployment processes. You will work with development and operations teams to automate workflows, improve system reliability, and ensure seamless integration and delivery of applications.</p>
         <h2><strong>Key Responsibilities</strong></h2>
         <ol>
@@ -689,22 +755,22 @@ export const jobsData = [
             <li>Excellent troubleshooting and problem-solving skills.</li>
             <li>Relevant certifications (e.g., AWS Certified DevOps Engineer) are a plus.</li>
         </ol>`,
-        salary: 74000,
-        date: 1729681667114,
-        category: "Programming",
+    salary: 74000,
+    date: 1729681667114,
+    category: "Programming",
+  },
+  {
+    _id: "17",
+    title: "Sales Manager",
+    location: "New York",
+    level: "Senior Level",
+    companyId: {
+      _id: "670e4d25ca9fda8f1bf359b9",
+      name: "Slack",
+      email: "slack@demo.com",
+      image: company_icon,
     },
-    {
-        _id: '17',
-        title: "Sales Manager",
-        location: "New York",
-        level: "Senior Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": company_icon,
-        },
-        description: `
+    description: `
         <p>Join our team as a Sales Manager, where you will lead our sales efforts to drive growth and increase market share. You will develop sales strategies, manage client relationships, and mentor your sales team to achieve performance goals.</p>
         <h2><strong>Key Responsibilities</strong></h2>
         <ol>
@@ -722,22 +788,22 @@ export const jobsData = [
             <li>Experience with CRM software (e.g., Salesforce).</li>
             <li>A results-oriented mindset with a focus on meeting targets.</li>
         </ol>`,
-        salary: 59000,
-        date: 1729681667114,
-        category: "Marketing",
+    salary: 59000,
+    date: 1729681667114,
+    category: "Marketing",
+  },
+  {
+    _id: "18",
+    title: "Human Resources Specialist",
+    location: "Washington",
+    level: "Intermediate Level",
+    companyId: {
+      _id: "670e4d25ca9fda8f1bf359b9",
+      name: "Slack",
+      email: "slack@demo.com",
+      image: company_icon,
     },
-    {
-        _id: '18',
-        title: "Human Resources Specialist",
-        location: "Washington",
-        level: "Intermediate Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": company_icon,
-        },
-        description: `
+    description: `
         <p>As a Human Resources Specialist, you will support various HR functions, including recruitment, employee relations, and compliance. You will play a vital role in fostering a positive workplace culture and ensuring that our HR practices align with organizational goals.</p>
         <h2><strong>Key Responsibilities</strong></h2>
         <ol>
@@ -755,22 +821,22 @@ export const jobsData = [
             <li>Ability to maintain confidentiality and handle sensitive information.</li>
             <li>Attention to detail and strong organizational skills.</li>
         </ol>`,
-        salary: 89000,
-        date: 1729681667114,
-        category: "Management",
+    salary: 89000,
+    date: 1729681667114,
+    category: "Management",
+  },
+  {
+    _id: "19",
+    title: "Content Marketing Manager",
+    location: "Mumbai",
+    level: "Senior Level",
+    companyId: {
+      _id: "670e4d25ca9fda8f1bf359b9",
+      name: "Slack",
+      email: "slack@demo.com",
+      image: company_icon,
     },
-    {
-        _id: '19',
-        title: "Content Marketing Manager",
-        location: "Mumbai",
-        level: "Senior Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": company_icon,
-        },
-        description: `
+    description: `
         <p>We are looking for a Content Marketing Manager to lead our content strategy and execution. In this role, you will develop compelling content that engages our audience and drives brand awareness. You will collaborate with various teams to ensure consistent messaging across all platforms.</p>
         <h2><strong>Key Responsibilities</strong></h2>
         <ol>
@@ -788,22 +854,22 @@ export const jobsData = [
             <li>Excellent analytical skills and ability to interpret data.</li>
             <li>Strong leadership and project management skills.</li>
         </ol>`,
-        salary: 99000,
-        date: 1729681667114,
-        category: "Marketing",
+    salary: 99000,
+    date: 1729681667114,
+    category: "Marketing",
+  },
+  {
+    _id: "20",
+    title: "Graphic Designer",
+    location: "Chennai",
+    level: "Intermediate Level",
+    companyId: {
+      _id: "670e4d25ca9fda8f1bf359b9",
+      name: "Slack",
+      email: "slack@demo.com",
+      image: company_icon,
     },
-    {
-        _id: '20',
-        title: "Graphic Designer",
-        location: "Chennai",
-        level: "Intermediate Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": company_icon,
-        },
-        description: `
+    description: `
         <p>Join our creative team as a Graphic Designer, where you will be responsible for creating visually appealing graphics and layouts that enhance our brand identity. You will collaborate with marketing and product teams to develop creative solutions for various projects.</p>
         <h2><strong>Key Responsibilities</strong></h2>
         <ol>
@@ -821,22 +887,22 @@ export const jobsData = [
             <li>Excellent communication and collaboration skills.</li>
             <li>A portfolio showcasing relevant design work is required.</li>
         </ol>`,
-        salary: 91000,
-        date: 1729681667114,
-        category: "Design",
+    salary: 91000,
+    date: 1729681667114,
+    category: "Design",
+  },
+  {
+    _id: "21",
+    title: "Software Tester",
+    location: "Chennai",
+    level: "Intermediate Level",
+    companyId: {
+      _id: "670e4d25ca9fda8f1bf359b9",
+      name: "Slack",
+      email: "slack@demo.com",
+      image: company_icon,
     },
-    {
-        _id: '21',
-        title: "Software Tester",
-        location: "Chennai",
-        level: "Intermediate Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": company_icon,
-        },
-        description: `
+    description: `
         <p>As a Software Tester, you will play a critical role in ensuring the quality and reliability of our software applications. You will design test cases, execute tests, and collaborate with development teams to identify and resolve defects before product release.</p>
         <h2><strong>Key Responsibilities</strong></h2>
         <ol>
@@ -854,22 +920,22 @@ export const jobsData = [
             <li>Excellent attention to detail and ability to work under tight deadlines.</li>
             <li>Good communication skills to articulate testing outcomes and challenges.</li>
         </ol>`,
-        salary: 123000,
-        date: 1729681667114,
-        category: "Programming",
+    salary: 123000,
+    date: 1729681667114,
+    category: "Programming",
+  },
+  {
+    _id: "22",
+    title: "Network Security Engineer",
+    location: "Bangalore",
+    level: "Senior Level",
+    companyId: {
+      _id: "670e4d25ca9fda8f1bf359b9",
+      name: "Slack",
+      email: "slack@demo.com",
+      image: company_icon,
     },
-    {
-        _id: '22',
-        title: "Network Security Engineer",
-        location: "Bangalore",
-        level: "Senior Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": company_icon,
-        },
-        description: `
+    description: `
         <p>We are seeking a Network Security Engineer to protect our organization's IT infrastructure. You will design and implement security measures to safeguard systems from unauthorized access and ensure compliance with security policies.</p>
         <h2><strong>Key Responsibilities</strong></h2>
         <ol>
@@ -887,22 +953,22 @@ export const jobsData = [
             <li>Excellent analytical and troubleshooting skills.</li>
             <li>Strong communication skills to work with technical and non-technical teams.</li>
         </ol>`,
-        salary: 87000,
-        date: 1729681667114,
-        category: "Cybersecurity",
+    salary: 87000,
+    date: 1729681667114,
+    category: "Cybersecurity",
+  },
+  {
+    _id: "23",
+    title: "Cloud Engineer",
+    location: "Hyderabad",
+    level: "Intermediate Level",
+    companyId: {
+      _id: "670e4d25ca9fda8f1bf359b9",
+      name: "Slack",
+      email: "slack@demo.com",
+      image: company_icon,
     },
-    {
-        _id: '23',
-        title: "Cloud Engineer",
-        location: "Hyderabad",
-        level: "Intermediate Level",
-        companyId: {
-            "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Slack",
-            "email": "slack@demo.com",
-            "image": company_icon,
-        },
-        description: `
+    description: `
         <p>Join our technology team as a Cloud Engineer, where you will be responsible for designing and managing our cloud infrastructure. You will collaborate with development and operations teams to ensure the efficient deployment and scaling of applications.</p>
         <h2><strong>Key Responsibilities</strong></h2>
         <ol>
@@ -920,8 +986,8 @@ export const jobsData = [
             <li>Experience with container orchestration tools like Kubernetes.</li>
             <li>Good problem-solving skills and attention to detail.</li>
         </ol>`,
-        salary: 102000,
-        date: 1729681667114,
-        category: "Programming",
-    }
+    salary: 102000,
+    date: 1729681667114,
+    category: "Programming",
+  },
 ];
