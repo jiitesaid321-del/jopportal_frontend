@@ -1,7 +1,7 @@
 import React, { useContext, useRef } from "react";
-//import { motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { Search, MapPin } from "lucide-react";
-//import { useDispatch,useSelector } from 'react-redux';
+import { useDispatch, useSelector } from "react-redux";
 import { AppContext } from "../context/appContext";
 
 function GreenBar() {
