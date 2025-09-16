@@ -1,19 +1,19 @@
-import React from 'react';
-import hormuud from '../assets/hormuud.png';
-import somtel from '../assets/Somtel_logo.JPG';
-import primierbank from '../assets/premier.JPG';
-import microsoft from '../assets/microsoft_logo.svg';
-import amazon from '../assets/amazon_logo.png';
-import university from '../assets/muniver.png'
+import React from "react";
+import hormuud from "../assets/hormuud.png";
+import somtel from "../assets/Somtel_logo.jpg";
+import primierbank from "../assets/premier.jpg";
+import microsoft from "../assets/microsoft_logo.svg";
+import amazon from "../assets/amazon_logo.png";
+import university from "../assets/muniver.png";
 
 const Companies = () => {
   const companies = [
-    { name: 'Hormuud', logo: hormuud },
-    { name: 'Somtel', logo: somtel },
-    { name: 'Premier Bank', logo: primierbank },
-    { name: 'Microsoft', logo: microsoft },
-    { name: 'Amazon', logo: amazon },
-    { name: 'Hormuud University', logo: university },
+    { name: "Hormuud", logo: hormuud },
+    { name: "Somtel", logo: somtel },
+    { name: "Premier Bank", logo: primierbank },
+    { name: "Microsoft", logo: microsoft },
+    { name: "Amazon", logo: amazon },
+    { name: "Hormuud University", logo: university },
   ];
 
   return (
