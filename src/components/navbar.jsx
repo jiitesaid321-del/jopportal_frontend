@@ -51,7 +51,7 @@ function Navbar() {
         <div className="absolute top-0 right-0 p-4 space-x-4">
           {/* Green Yellow Button */}
           <button
-            onClick={(e) => setShowRecriuterLogin(true)}
+            onClick={() => setShowRecriuterLogin(true)}
             className="px-4 py-1 text-white bg-[#A3E635] hover:bg-[#8fc52d] rounded-lg font-medium transition-colors"
           >
             Company Login
@@ -60,7 +60,7 @@ function Navbar() {
           {/* Smaller Grey Text Button */}
           <button
             className="px-4 py-1 text-gray-500 border border-gray-500 rounded-lg hover:bg-gray-50 transition-colors font-medium"
-            onClick={(e) => openSignIn()}
+            onClick={() => openSignIn()}
           >
             Log in
           </button>

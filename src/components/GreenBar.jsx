@@ -1,25 +1,21 @@
-import React, { useContext, useRef } from 'react';
-import { motion } from 'framer-motion';
-import { Search, MapPin } from 'lucide-react';
-import { useDispatch,useSelector } from 'react-redux';
-import { AppContext } from '../context/appContext';
+import React, { useContext, useRef } from "react";
+//import { motion } from "framer-motion";
+import { Search, MapPin } from "lucide-react";
+//import { useDispatch,useSelector } from 'react-redux';
+import { AppContext } from "../context/appContext";
 
 function GreenBar() {
+  const { setSearchFilter, setIsSearched } = useContext(AppContext);
+  const titleRef = useRef(null);
+  const locationRef = useRef(null);
 
-  const { setSearchFilter, setIsSearched } = useContext(AppContext)
-const titleRef=useRef(null)
-const locationRef=useRef(null)
-
-const onSearch = () => {
-  setSearchFilter({
-    title: titleRef.current.value,
-    location: locationRef.current.value
-  })
-  setIsSearched(true)
-
-}
-  
-
+  const onSearch = () => {
+    setSearchFilter({
+      title: titleRef.current.value,
+      location: locationRef.current.value,
+    });
+    setIsSearched(true);
+  };
 
   return (
     <div className="bg-white py-10 px-6 text-center mt-8">
@@ -38,7 +34,9 @@ const onSearch = () => {
         transition={{ delay: 0.3, duration: 1 }}
         className="text-lg text-black max-w-2xl mx-auto mb-6"
       >
-        Barxadda shaqooyinka guud ee Soomaaliya – Hel fursado shaqo oo dawladeed, ciidanka, iyo kuwa guud oo loo furay dhammaan dadka Soomaaliyeed. U gudub mustaqbal ifaya maanta!
+        Barxadda shaqooyinka guud ee Soomaaliya – Hel fursado shaqo oo
+        dawladeed, ciidanka, iyo kuwa guud oo loo furay dhammaan dadka
+        Soomaaliyeed. U gudub mustaqbal ifaya maanta!
       </motion.p>
 
       <motion.div
@@ -67,7 +65,10 @@ const onSearch = () => {
           />
         </div>
 
-        <button className="bg-[#7ED321] hover:bg-green-600 text-white px-6 py-3 rounded-xl shadow-md" onClick={onSearch}>
+        <button
+          className="bg-[#7ED321] hover:bg-green-600 text-white px-6 py-3 rounded-xl shadow-md"
+          onClick={onSearch}
+        >
           Raadi
         </button>
       </motion.div>
