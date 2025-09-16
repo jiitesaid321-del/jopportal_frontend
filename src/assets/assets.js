@@ -35,7 +35,7 @@ import adobe_logo from "./adobe_logo.png";
 import amazon_logo from "./amazon_logo.png";
 import hormuud from "./hormuud.png";
 import somtel from "./Somtel_logo.jpg";
-import primierbank from "./premier.JPG";
+import primierbank from "./premier.jpg";
 import university from "./muniver.png";
 
 export const assets = {
