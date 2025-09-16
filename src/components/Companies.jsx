@@ -1,6 +1,6 @@
 import React from "react";
 import hormuud from "../assets/hormuud.png";
-import somtel from "../assets/Somtel_logo.jpg";
+import somtel from "../assets/premier.jpg";
 import primierbank from "../assets/premier.jpg";
 import microsoft from "../assets/microsoft_logo.svg";
 import amazon from "../assets/amazon_logo.png";
