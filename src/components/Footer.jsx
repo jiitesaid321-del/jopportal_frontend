@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Branding & Description */}
         <div>
-          <h2 className="text-xl font-bold text-white">xasan ***</h2>
+          <h2 className="text-xl font-bold text-white">xasan Farah</h2>
           <p className="mt-2 text-sm">
             "Dhaqan Soomaaliyeed, hal-abuur dijitaal ah, Fikrad cajiib iyo
             xiriir heersare ah — mar walba."
